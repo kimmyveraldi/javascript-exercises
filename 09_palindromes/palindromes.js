@@ -9,7 +9,7 @@ const palindromes = (str) => {
     reveresedstr = str.split("")
                       .reverse().join("");
 
-    return reveresedstr == str;
+    return (reveresedstr == str);
 }
 
 // Do not edit below this line
